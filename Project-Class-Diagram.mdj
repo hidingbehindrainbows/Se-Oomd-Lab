@@ -1,162 +1,20 @@
 {
-  "ownedElements": [
+  "name": "Class Diagram",
+  "elements": [
     {
-      "_type": "UMLClassDiagram",
-      "name": "Class Diagram",
-      "ownedElements": [
-        {
-          "_type": "UMLClass",
-          "name": "Candidate",
-          "attributes": [
-            {
-              "_type": "UMLAttribute",
-              "name": "id",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "name",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "email",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "skills",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "experience",
-              "type": "String"
-            }
-          ],
-          "operations": [
-            {
-              "_type": "UMLOperation",
-              "name": "applyForInternship"
-            }
-          ]
-        },
-        {
-          "_type": "UMLClass",
-          "name": "Internship",
-          "attributes": [
-            {
-              "_type": "UMLAttribute",
-              "name": "id",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "title",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "description",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "requirements",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "duration",
-              "type": "String"
-            }
-          ],
-          "operations": [
-            {
-              "_type": "UMLOperation",
-              "name": "postInternship"
-            }
-          ]
-        },
-        {
-          "_type": "UMLClass",
-          "name": "Employer",
-          "attributes": [
-            {
-              "_type": "UMLAttribute",
-              "name": "id",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "name",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "company",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "email",
-              "type": "String"
-            }
-          ],
-          "operations": [
-            {
-              "_type": "UMLOperation",
-              "name": "postJob"
-            }
-          ]
-        },
-        {
-          "_type": "UMLClass",
-          "name": "Application",
-          "attributes": [
-            {
-              "_type": "UMLAttribute",
-              "name": "id",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "candidateId",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "internshipId",
-              "type": "String"
-            },
-            {
-              "_type": "UMLAttribute",
-              "name": "status",
-              "type": "String"
-            }
-          ],
-          "operations": [
-            {
-              "_type": "UMLOperation",
-              "name": "updateStatus"
-            }
-          ]
-        },
-        {
-          "_type": "UMLClass",
-          "name": "System",
-          "operations": [
-            {
-              "_type": "UMLOperation",
-              "name": "matchCandidates"
-            },
-            {
-              "_type": "UMLOperation",
-              "name": "notifyCandidates"
-            }
-          ]
-        }
+      "type": "UMLClass",
+      "name": "Universidade",
+      "attributes": [
+        {"name": "numberOfCreatedObjects", "type": "int"},
+        {"name": "id", "type": "int"},
+        {"name": "nome", "type": "String"},
+        {"name": "sigla", "type": "String"},
+        {"name": "cnpj", "type": "String"},
+        {"name": "telefone", "type": "String"},
+        {"name": "cursos", "type": "List<Curso>"},
+        {"name": "endereco", "type": "Endereco"}
       ]
-    }
+    },
+    ...
   ]
 }
