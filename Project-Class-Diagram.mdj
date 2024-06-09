@@ -1,20 +1,26 @@
 {
-  "name": "Class Diagram",
-  "elements": [
-    {
-      "type": "UMLClass",
-      "name": "Universidade",
-      "attributes": [
-        {"name": "numberOfCreatedObjects", "type": "int"},
-        {"name": "id", "type": "int"},
-        {"name": "nome", "type": "String"},
-        {"name": "sigla", "type": "String"},
-        {"name": "cnpj", "type": "String"},
-        {"name": "telefone", "type": "String"},
-        {"name": "cursos", "type": "List<Curso>"},
-        {"name": "endereco", "type": "Endereco"}
-      ]
-    },
-    ...
-  ]
-}
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+  {
+    "name": "Class Diagram",
+    "elements": [
+      {
+        "type": "UMLClass",
+        "name": "Universidade",
+        "attributes": [
+          {"name": "numberOfCreatedObjects", "type": "int"},
+          {"name": "id", "type": "int"},
+          {"name": "nome", "type": "String"},
+          {"name": "sigla", "type": "String"},
+          {"name": "cnpj", "type": "String"},
+          {"name": "telefone", "type": "String"},
+          {"name": "cursos", "type": "List<Curso>"},
+          {"name": "endereco", "type": "Endereco"}
+        ]
+      },
+      ...
+    ]
+  }
+}]}
